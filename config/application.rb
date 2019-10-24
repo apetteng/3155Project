@@ -8,6 +8,11 @@ require "active_record/railtie"
 require "active_storage/engine"
 require "action_controller/railtie"
 require "action_mailer/railtie"
+<<<<<<< HEAD
+=======
+require "action_mailbox/engine"
+require "action_text/engine"
+>>>>>>> 633ac7afe371fce73c509df343575b70c6722552
 require "action_view/railtie"
 require "action_cable/engine"
 require "sprockets/railtie"
@@ -17,10 +22,17 @@ require "sprockets/railtie"
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
 
+<<<<<<< HEAD
 module Final
   class Application < Rails::Application
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 5.2
+=======
+module Project
+  class Application < Rails::Application
+    # Initialize configuration defaults for originally generated Rails version.
+    config.load_defaults 6.0
+>>>>>>> 633ac7afe371fce73c509df343575b70c6722552
 
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration can go into files in config/initializers

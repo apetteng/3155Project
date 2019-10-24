@@ -27,7 +27,11 @@
 #   'true': 'foo'
 #
 # To learn more, please read the Rails Internationalization guide
+<<<<<<< HEAD
 # available at http://guides.rubyonrails.org/i18n.html.
+=======
+# available at https://guides.rubyonrails.org/i18n.html.
+>>>>>>> 633ac7afe371fce73c509df343575b70c6722552
 
 en:
   hello: "Hello world"

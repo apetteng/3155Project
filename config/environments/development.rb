@@ -16,6 +16,10 @@ Rails.application.configure do
   # Run rails dev:cache to toggle caching.
   if Rails.root.join('tmp', 'caching-dev.txt').exist?
     config.action_controller.perform_caching = true
+<<<<<<< HEAD
+=======
+    config.action_controller.enable_fragment_cache_logging = true
+>>>>>>> 633ac7afe371fce73c509df343575b70c6722552
 
     config.cache_store = :memory_store
     config.public_file_server.headers = {
@@ -27,7 +31,11 @@ Rails.application.configure do
     config.cache_store = :null_store
   end
 
+<<<<<<< HEAD
   # Store uploaded files on the local file system (see config/storage.yml for options)
+=======
+  # Store uploaded files on the local file system (see config/storage.yml for options).
+>>>>>>> 633ac7afe371fce73c509df343575b70c6722552
   config.active_storage.service = :local
 
   # Don't care if the mailer can't send.
@@ -52,7 +60,11 @@ Rails.application.configure do
   # Suppress logger output for asset requests.
   config.assets.quiet = true
 
+<<<<<<< HEAD
   # Raises error for missing translations
+=======
+  # Raises error for missing translations.
+>>>>>>> 633ac7afe371fce73c509df343575b70c6722552
   # config.action_view.raise_on_missing_translations = true
 
   # Use an evented file watcher to asynchronously detect changes in source code,

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
 
@@ -6,6 +7,17 @@ Rails.application.configure do
   # your test database is "scratch space" for the test suite and is wiped
   # and recreated between test runs. Don't rely on the data there!
   config.cache_classes = true
+=======
+# The test environment is used exclusively to run your application's
+# test suite. You never need to work with it otherwise. Remember that
+# your test database is "scratch space" for the test suite and is wiped
+# and recreated between test runs. Don't rely on the data there!
+
+Rails.application.configure do
+  # Settings specified here will take precedence over those in config/application.rb.
+  
+  config.cache_classes = false
+>>>>>>> 633ac7afe371fce73c509df343575b70c6722552
 
   # Do not eager load code on boot. This avoids loading your whole application
   # just for the purpose of running a single test. If you are using a tool that
@@ -21,6 +33,10 @@ Rails.application.configure do
   # Show full error reports and disable caching.
   config.consider_all_requests_local       = true
   config.action_controller.perform_caching = false
+<<<<<<< HEAD
+=======
+  config.cache_store = :null_store
+>>>>>>> 633ac7afe371fce73c509df343575b70c6722552
 
   # Raise exceptions instead of rendering exception templates.
   config.action_dispatch.show_exceptions = false
@@ -28,7 +44,11 @@ Rails.application.configure do
   # Disable request forgery protection in test environment.
   config.action_controller.allow_forgery_protection = false
 
+<<<<<<< HEAD
   # Store uploaded files on the local file system in a temporary directory
+=======
+  # Store uploaded files on the local file system in a temporary directory.
+>>>>>>> 633ac7afe371fce73c509df343575b70c6722552
   config.active_storage.service = :test
 
   config.action_mailer.perform_caching = false
@@ -41,6 +61,10 @@ Rails.application.configure do
   # Print deprecation notices to the stderr.
   config.active_support.deprecation = :stderr
 
+<<<<<<< HEAD
   # Raises error for missing translations
+=======
+  # Raises error for missing translations.
+>>>>>>> 633ac7afe371fce73c509df343575b70c6722552
   # config.action_view.raise_on_missing_translations = true
 end

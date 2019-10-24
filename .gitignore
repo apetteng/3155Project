@@ -17,6 +17,7 @@
 !/log/.keep
 !/tmp/.keep
 
+<<<<<<< HEAD
 # Ignore uploaded files in development
 /storage/*
 !/storage/.keep
@@ -24,8 +25,24 @@
 /node_modules
 /yarn-error.log
 
+=======
+# Ignore uploaded files in development.
+/storage/*
+!/storage/.keep
+
+>>>>>>> 633ac7afe371fce73c509df343575b70c6722552
 /public/assets
 .byebug_history
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
+<<<<<<< HEAD
+=======
+
+/public/packs
+/public/packs-test
+/node_modules
+/yarn-error.log
+yarn-debug.log*
+.yarn-integrity
+>>>>>>> 633ac7afe371fce73c509df343575b70c6722552
